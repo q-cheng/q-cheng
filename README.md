@@ -64,5 +64,5 @@ An agent/backend pipeline that turns meeting input into validated, sandboxed min
 </p>
 
 <p align="center">
-  <a href="mailto:chengqian1999@gmail.com"><strong>Get in touch ↗</strong></a>
+  <a href="https://www.linkedin.com/in/qian-cheng-2bb71319a/"><strong>Get in touch ↗</strong></a>
 </p>
