@@ -1,96 +1,68 @@
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:312E81,100:0EA5E9&height=220&section=header&text=Qian%20Cheng&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Speech%20AI%20%E2%80%A2%20ML%20Systems%20%E2%80%A2%20Production%20Inference&descAlignY=57&descSize=18"
-    alt="Qian Cheng — Speech AI, ML Systems, and Production Inference"
-    width="100%"
-  />
-</p>
-
-<p align="center">
-  <strong>Machine learning engineer building production speech AI systems.</strong>
-</p>
-
-<p align="center">
-  I work across model training, evaluation, inference optimization, and deployment—turning research prototypes into reliable products.<br/>
-  Currently at Kotoba Technologies in Tokyo.
-</p>
-
-<h2 align="center">What I build</h2>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎙️ Speech Recognition</h3>
-      <p>Multilingual ASR, data pipelines, evaluation, and reliable serving.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔊 Speech Generation</h3>
-      <p>TTS and streaming speech-to-speech translation systems.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ ML Systems</h3>
-      <p>Distributed training, GPU inference, latency optimization, and performance benchmarking.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🚀 Production Engineering</h3>
-      <p>Model evaluation, scalable deployment, observability, and CI/CD.</p>
-    </td>
-  </tr>
-</table>
-
-<h2 align="center">Selected work</h2>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Waki Demo Builder</h3>
-      <p>An agent/backend pipeline that turns meeting input into validated, sandboxed mini-app demos.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Production speech deployment</h3>
-      <p>Deployment tooling for ASR, TTS, and speech-to-speech systems with immutable images, model hydration, scaling benchmarks, and CI.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Mimi codec benchmark</h3>
-      <p>Real-weight GPU performance measurement across eager and CUDA Graph execution, with output-equivalence checks.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Kubernetes Job Scheduler</h3>
-      <p>Experimentation with custom scheduling policies in Go on Kubernetes.</p>
-    </td>
-  </tr>
-</table>
-
-<h2 align="center">Engineering toolkit</h2>
-
-<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,pytorch,go,docker,kubernetes,gcp,aws,githubactions,git,linux&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,pytorch,go,docker,kubernetes,gcp,aws,githubactions,git,linux&theme=light" />
-    <img src="https://skillicons.dev/icons?i=python,pytorch,go,docker,kubernetes,gcp,aws,githubactions,git,linux&theme=light" alt="Python, PyTorch, Go, Docker, Kubernetes, Google Cloud, AWS, GitHub Actions, Git, and Linux" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
+    <img src="./assets/hero-light.svg" alt="Qian Cheng — Machine Learning Engineer. Speech, from model to production." width="100%" />
   </picture>
 </p>
 
+<br/>
+
+<h2 align="center">Speech systems, end to end.</h2>
+
 <p align="center">
-  <code>distributed training</code>
-  <code>CUDA / GPU inference</code>
-  <code>evaluation</code>
-  <code>observability</code>
+  I build systems that understand, generate, and translate speech—from model training and evaluation<br/>
+  to GPU inference and production deployment.
 </p>
 
-<h2 align="center">Background</h2>
+<br/>
+
+### Understand.
+
+Multilingual ASR, large-scale data pipelines, and reliable evaluation.
+
+### Generate.
+
+TTS and streaming speech-to-speech translation.
+
+### Scale.
+
+Distributed training, low-latency GPU inference, benchmarking, deployment, observability, and CI/CD.
+
+<br/>
+
+## Selected work
+
+**Production speech deployment.**  
+ASR, TTS, and speech-to-speech services with immutable images, model hydration, scaling benchmarks, and automated releases.
+
+**Mimi codec benchmarking.**  
+Real-weight GPU performance and parity measurement across eager and CUDA Graph execution.
+
+**Waki Demo Builder.**  
+An agent/backend pipeline that turns meeting input into validated, sandboxed mini-app demos.
+
+<br/>
+
+## Toolkit
+
+<code>Python</code> · <code>PyTorch</code> · <code>Go</code> · <code>CUDA / GPU inference</code> · <code>Kubernetes</code> · <code>Docker</code> · <code>GitHub Actions</code>
+
+<br/>
+
+---
 
 <p align="center">
-  Previously worked on Siri TTS at Apple and production backend systems at Linktivity.<br/>
-  M.S. in Electrical and Computer Engineering from Carnegie Mellon University.
+  <strong>Apple</strong> · Siri TTS &nbsp;&nbsp;→&nbsp;&nbsp;
+  <strong>Linktivity</strong> · Backend Systems &nbsp;&nbsp;→&nbsp;&nbsp;
+  <strong>Kotoba Technologies</strong> · Speech AI
 </p>
 
 <p align="center">
-  <a href="mailto:chengqian1999@gmail.com">
-    <img src="https://img.shields.io/badge/Email-chengqian1999%40gmail.com-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email chengqian1999@gmail.com" />
-  </a>
+  M.S. in Electrical and Computer Engineering, Carnegie Mellon University<br/>
+  Tokyo, Japan
+</p>
+
+<p align="center">
+  <a href="mailto:chengqian1999@gmail.com"><strong>Get in touch ↗</strong></a>
 </p>
