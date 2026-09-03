@@ -1,0 +1,57 @@
+name: Update profile activity
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-activity.yml"
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: true
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate recent GitHub activity
+        # Pinned to an immutable commit for supply-chain safety.
+        uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+        with:
+          filename: assets/github-activity.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: q-cheng
+          template: classic
+          base: ""
+          config_timezone: Asia/Tokyo
+          config_display: large
+          config_animations: yes
+
+          # Exclude automated refreshes from the activity calculation.
+          repositories_skipped: q-cheng/q-cheng
+
+          # Commit timing over recent GitHub activity.
+          plugin_habits: yes
+          plugin_habits_from: 500
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
+          plugin_habits_trim: yes
+          plugin_habits_languages_limit: 0
+
+          # Recent public pushes and pull requests with timestamps.
+          plugin_activity: yes
+          plugin_activity_load: 500
+          plugin_activity_limit: 6
+          plugin_activity_days: 30
+          plugin_activity_filter: "push, pr"
+          plugin_activity_timestamps: yes
+          plugin_activity_visibility: public
