@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub contribution totals</title>
+  <desc id="desc">This placeholder is replaced by automatically refreshed commit, pull request, and review totals after the workflow runs.</desc>
+  <style>
+    .surface { fill: #F5F5F7; }
+    .primary { fill: #1D1D1F; }
+    .secondary { fill: #6E6E73; }
+    .accent { fill: #0071E3; }
+    .divider { stroke: #D2D2D7; }
+    @media (prefers-color-scheme: dark) {
+      .surface { fill: #0D1117; }
+      .primary { fill: #F5F5F7; }
+      .secondary { fill: #A1A1A6; }
+      .accent { fill: #2997FF; }
+      .divider { stroke: #30363D; }
+    }
+  </style>
+  <rect class="surface" width="1200" height="230" rx="24"/>
+  <text class="primary" x="70" y="62"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="26" font-weight="650">Contribution totals</text>
+  <line class="divider" x1="400" y1="98" x2="400" y2="182"/>
+  <line class="divider" x1="800" y1="98" x2="800" y2="182"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" text-anchor="middle">
+    <text class="accent" x="200" y="143" font-size="36" font-weight="650">—</text>
+    <text class="secondary" x="200" y="177" font-size="17">COMMITS</text>
+    <text class="accent" x="600" y="143" font-size="36" font-weight="650">—</text>
+    <text class="secondary" x="600" y="177" font-size="17">REVIEWS</text>
+    <text class="accent" x="1000" y="143" font-size="36" font-weight="650">—</text>
+    <text class="secondary" x="1000" y="177" font-size="17">PULL REQUESTS</text>
+  </g>
+</svg>
