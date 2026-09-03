@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Qian Cheng</title>
+  <desc id="desc">Machine learning engineer. Speech, from model to production.</desc>
+  <defs>
+    <linearGradient id="accent" x1="180" y1="0" x2="1020" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0071E3"/>
+      <stop offset="0.5" stop-color="#7D5FFF"/>
+      <stop offset="1" stop-color="#FF6B6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="#F5F5F7"/>
+  <text x="600" y="72" text-anchor="middle" fill="#6E6E73"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="17" font-weight="600" letter-spacing="4">MACHINE LEARNING ENGINEER</text>
+  <text x="600" y="170" text-anchor="middle" fill="#1D1D1F"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="72" font-weight="700" letter-spacing="-2">Qian Cheng</text>
+  <text x="600" y="224" text-anchor="middle" fill="#6E6E73"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="28" font-weight="400">Speech, from model to production.</text>
+  <path d="M180 282 C235 282 235 258 290 258 S345 306 400 306 S455 270 510 270 S565 292 620 292 S675 250 730 250 S785 302 840 302 S895 272 950 272 S1005 282 1020 282"
+        fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+  <text x="600" y="330" text-anchor="middle" fill="#86868B"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="15" font-weight="500" letter-spacing="3">ASR · TTS · SPEECH-TO-SPEECH</text>
+</svg>
