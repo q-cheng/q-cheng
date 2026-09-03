@@ -47,20 +47,6 @@ An agent/backend pipeline that turns meeting input into validated, sandboxed min
 
 <br/>
 
-## Activity
-
-<p align="center">
-  <img src="./assets/github-stats.svg" alt="Total GitHub commits, pull request reviews, and pull requests opened" width="100%" />
-</p>
-
-<p align="center">
-  <img src="./assets/github-activity.svg" alt="Recent GitHub commits and pull requests, with commit activity by time of day" width="100%" />
-</p>
-
-<p align="center"><sub>Contribution counts only · recent public activity · updated daily · Asia/Tokyo</sub></p>
-
-<br/>
-
 ---
 
 <p align="center">
