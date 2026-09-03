@@ -37,6 +37,23 @@ jobs:
           # Exclude automated refreshes from the activity calculation.
           repositories_skipped: q-cheng/q-cheng
 
+          # Apple-blue intensity scale for the commit-time bars.
+          extras_css: |
+            .habits {
+              --color-calendar-graph-day-L1-bg: #D6EBFF !important;
+              --color-calendar-graph-day-L2-bg: #8CC8FF !important;
+              --color-calendar-graph-day-L3-bg: #3A9BFF !important;
+              --color-calendar-graph-day-L4-bg: #0071E3 !important;
+            }
+            @media (prefers-color-scheme: dark) {
+              .habits {
+                --color-calendar-graph-day-L1-bg: #163B63 !important;
+                --color-calendar-graph-day-L2-bg: #155FA6 !important;
+                --color-calendar-graph-day-L3-bg: #1687E8 !important;
+                --color-calendar-graph-day-L4-bg: #2997FF !important;
+              }
+            }
+
           # Commit timing over recent GitHub activity.
           plugin_habits: yes
           plugin_habits_from: 500
@@ -55,3 +72,46 @@ jobs:
           plugin_activity_filter: "push, pr"
           plugin_activity_timestamps: yes
           plugin_activity_visibility: public
+
+      - name: Generate contribution totals
+        uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+        with:
+          filename: assets/github-stats.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: q-cheng
+          template: classic
+          base: activity
+          base_indepth: yes
+          config_timezone: Asia/Tokyo
+          config_display: large
+          config_animations: yes
+
+          # Count contributions without displaying repository names.
+          repositories_skipped: q-cheng/q-cheng
+
+          # Keep only commits, reviews, and opened pull requests.
+          extras_css: |
+            .largeable-inline-flex > .row > section {
+              display: grid !important;
+              grid-template-columns: repeat(3, minmax(0, 1fr));
+              gap: 12px 28px;
+              width: 100% !important;
+            }
+            .largeable-inline-flex > .row > section > h2.field {
+              grid-column: 1 / -1;
+            }
+            .largeable-inline-flex > .row > section > div.field {
+              margin: 0 !important;
+            }
+            .largeable-inline-flex > .row > section > div.field:nth-of-type(n + 4) {
+              display: none !important;
+            }
+            .largeable-inline-flex > .row > section > .field > svg {
+              fill: #0071E3 !important;
+            }
+            @media (prefers-color-scheme: dark) {
+              .largeable-inline-flex > .row > section > .field > svg {
+                fill: #2997FF !important;
+              }
+            }
