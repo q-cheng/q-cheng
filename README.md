@@ -1,13 +1,13 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:312E81,100:0EA5E9&height=220&section=header&text=Qian%20Cheng&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Speech%20AI%20%E2%80%A2%20Multimodal%20AI%20%E2%80%A2%20ML%20Systems&descAlignY=57&descSize=18"
-    alt="Qian Cheng — Speech AI, Multimodal AI, and ML Systems"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:312E81,100:0EA5E9&height=220&section=header&text=Qian%20Cheng&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Speech%20AI%20%E2%80%A2%20ML%20Systems%20%E2%80%A2%20Production%20Inference&descAlignY=57&descSize=18"
+    alt="Qian Cheng — Speech AI, ML Systems, and Production Inference"
     width="100%"
   />
 </p>
 
 <p align="center">
-  <strong>Machine learning engineer building production speech and multimodal AI systems.</strong>
+  <strong>Machine learning engineer building production speech AI systems.</strong>
 </p>
 
 <p align="center">
@@ -20,12 +20,12 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎙️ Speech AI</h3>
-      <p>Multilingual ASR, TTS, and streaming speech-to-speech translation.</p>
+      <h3>🎙️ Speech Recognition</h3>
+      <p>Multilingual ASR, data pipelines, evaluation, and reliable serving.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎬 Multimodal AI</h3>
-      <p>Multimodal reasoning, visual grounding, and spatiotemporal understanding.</p>
+      <h3>🔊 Speech Generation</h3>
+      <p>TTS and streaming speech-to-speech translation systems.</p>
     </td>
   </tr>
   <tr>
@@ -34,8 +34,8 @@
       <p>Distributed training, GPU inference, latency optimization, and performance benchmarking.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🚀 Production AI</h3>
-      <p>Evaluation, model distillation, reliable serving, observability, and CI/CD.</p>
+      <h3>🚀 Production Engineering</h3>
+      <p>Model evaluation, scalable deployment, observability, and CI/CD.</p>
     </td>
   </tr>
 </table>
@@ -50,7 +50,7 @@
     </td>
     <td width="50%" valign="top">
       <h3>Production speech deployment</h3>
-      <p>Deployment tooling for ASR, TTS, S2ST, and S2TT with immutable images, model hydration, scaling benchmarks, and CI.</p>
+      <p>Deployment tooling for ASR, TTS, and speech-to-speech systems with immutable images, model hydration, scaling benchmarks, and CI.</p>
     </td>
   </tr>
   <tr>
