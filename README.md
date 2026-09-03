@@ -36,9 +36,6 @@ Distributed training, low-latency GPU inference, benchmarking, deployment, obser
 **Production speech deployment.**  
 ASR, TTS, and speech-to-speech services with immutable images, model hydration, scaling benchmarks, and automated releases.
 
-**Mimi codec benchmarking.**  
-Real-weight GPU performance and parity measurement across eager and CUDA Graph execution.
-
 **Waki Demo Builder.**  
 An agent/backend pipeline that turns meeting input into validated, sandboxed mini-app demos.
 
