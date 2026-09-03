@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Qian Cheng</title>
-  <desc id="desc">Machine learning engineer. Speech, from model to production.</desc>
+  <desc id="desc">Machine learning engineer. Speech, from model to production. An animated sound wave moves below the title.</desc>
   <defs>
     <linearGradient id="accent" x1="180" y1="0" x2="1020" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0071E3"/>
@@ -18,8 +18,28 @@
   <text x="600" y="224" text-anchor="middle" fill="#6E6E73"
         font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
         font-size="28" font-weight="400">Speech, from model to production.</text>
-  <path d="M180 282 C235 282 235 258 290 258 S345 306 400 306 S455 270 510 270 S565 292 620 292 S675 250 730 250 S785 302 840 302 S895 272 950 272 S1005 282 1020 282"
-        fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+  <g fill="none" stroke="url(#accent)" stroke-linecap="round">
+    <path opacity="0.14" stroke-width="15"
+          d="M180 282 C225 282 245 258 290 258 C335 258 355 306 400 306 C445 306 465 270 510 270 C555 270 575 292 620 292 C665 292 685 250 730 250 C775 250 795 302 840 302 C885 302 905 272 950 272 C985 272 1005 282 1020 282">
+      <animate attributeName="d" dur="4.8s" repeatCount="indefinite" calcMode="spline"
+               keyTimes="0;0.33;0.66;1"
+               keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"
+               values="M180 282 C225 282 245 258 290 258 C335 258 355 306 400 306 C445 306 465 270 510 270 C555 270 575 292 620 292 C665 292 685 250 730 250 C775 250 795 302 840 302 C885 302 905 272 950 272 C985 272 1005 282 1020 282;
+                       M180 282 C225 282 245 244 290 244 C335 244 355 308 400 308 C445 308 465 250 510 250 C555 250 575 304 620 304 C665 304 685 238 730 238 C775 238 795 306 840 306 C885 306 905 256 950 256 C985 256 1005 282 1020 282;
+                       M180 282 C225 282 245 298 290 298 C335 298 355 248 400 248 C445 248 465 310 510 310 C555 310 575 242 620 242 C665 242 685 300 730 300 C775 300 795 254 840 254 C885 254 905 296 950 296 C985 296 1005 282 1020 282;
+                       M180 282 C225 282 245 258 290 258 C335 258 355 306 400 306 C445 306 465 270 510 270 C555 270 575 292 620 292 C665 292 685 250 730 250 C775 250 795 302 840 302 C885 302 905 272 950 272 C985 272 1005 282 1020 282"/>
+    </path>
+    <path stroke-width="5"
+          d="M180 282 C225 282 245 258 290 258 C335 258 355 306 400 306 C445 306 465 270 510 270 C555 270 575 292 620 292 C665 292 685 250 730 250 C775 250 795 302 840 302 C885 302 905 272 950 272 C985 272 1005 282 1020 282">
+      <animate attributeName="d" dur="4.8s" repeatCount="indefinite" calcMode="spline"
+               keyTimes="0;0.33;0.66;1"
+               keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"
+               values="M180 282 C225 282 245 258 290 258 C335 258 355 306 400 306 C445 306 465 270 510 270 C555 270 575 292 620 292 C665 292 685 250 730 250 C775 250 795 302 840 302 C885 302 905 272 950 272 C985 272 1005 282 1020 282;
+                       M180 282 C225 282 245 244 290 244 C335 244 355 308 400 308 C445 308 465 250 510 250 C555 250 575 304 620 304 C665 304 685 238 730 238 C775 238 795 306 840 306 C885 306 905 256 950 256 C985 256 1005 282 1020 282;
+                       M180 282 C225 282 245 298 290 298 C335 298 355 248 400 248 C445 248 465 310 510 310 C555 310 575 242 620 242 C665 242 685 300 730 300 C775 300 795 254 840 254 C885 254 905 296 950 296 C985 296 1005 282 1020 282;
+                       M180 282 C225 282 245 258 290 258 C335 258 355 306 400 306 C445 306 465 270 510 270 C555 270 575 292 620 292 C665 292 685 250 730 250 C775 250 795 302 840 302 C885 302 905 272 950 272 C985 272 1005 282 1020 282"/>
+    </path>
+  </g>
   <text x="600" y="330" text-anchor="middle" fill="#86868B"
         font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
         font-size="15" font-weight="500" letter-spacing="3">ASR · TTS · SPEECH-TO-SPEECH</text>
