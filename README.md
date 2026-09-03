@@ -1,31 +1,79 @@
-# Qian Cheng
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
+    <img src="./assets/hero-light.svg" alt="Qian Cheng — Machine Learning Engineer. Speech, from model to production." width="100%" />
+  </picture>
+</p>
 
-**Machine learning engineer building production speech and multimodal AI systems.**
+<br/>
 
-I work across model training, evaluation, inference optimization, and deployment—turning research prototypes into reliable products. I'm currently at Kotoba Technologies in Tokyo.
+<h2 align="center">Speech systems, end to end.</h2>
 
-## Focus
+<p align="center">
+  I build systems that understand, generate, and translate speech—from model training and evaluation<br/>
+  to GPU inference and production deployment.
+</p>
 
-- Multilingual ASR, TTS, and streaming speech-to-speech translation
-- GPU inference, low-latency serving, and benchmarking
-- Multimodal reasoning and spatiotemporal grounding
-- Post-training, reinforcement learning, model distillation, and evaluation
+<br/>
+
+### Understand.
+
+Multilingual ASR, large-scale data pipelines, and reliable evaluation.
+
+### Generate.
+
+TTS and streaming speech-to-speech translation.
+
+### Scale.
+
+Distributed training, low-latency GPU inference, benchmarking, deployment, observability, and CI/CD.
+
+<br/>
 
 ## Selected work
 
-- **Waki Demo Builder** — an agent/backend pipeline that turns meeting input into validated, sandboxed mini-app demos.
-- **Production speech deployment on Fal** — deployment tooling for ASR, TTS, S2ST, and S2TT with immutable images, model hydration, scaling benchmarks, and CI.
-- **Mimi codec benchmark and parity harness** — real-weight GPU performance measurement across eager and CUDA Graph execution, with output-equivalence checks.
-- **Kubernetes Job Scheduler** — experimentation with custom scheduling policies in Go on Kubernetes.
+**Production speech deployment.**  
+ASR, TTS, and speech-to-speech services with immutable images, model hydration, scaling benchmarks, and automated releases.
 
-## Engineering
+**Waki Demo Builder.**  
+An agent/backend pipeline that turns meeting input into validated, sandboxed mini-app demos.
 
-Python · Go · PyTorch · distributed training · CUDA/GPU inference · Kubernetes · Docker · GitHub Actions · observability
+<br/>
 
-## Background
+## Toolkit
 
-Previously worked on Siri TTS at Apple and production backend systems at Linktivity. I hold an M.S. in Electrical and Computer Engineering from Carnegie Mellon University.
+<code>Python</code> · <code>PyTorch</code> · <code>Go</code> · <code>CUDA / GPU inference</code> · <code>Kubernetes</code> · <code>Docker</code> · <code>GitHub Actions</code>
 
-## Contact
+<br/>
 
-[chengqian1999@gmail.com](mailto:chengqian1999@gmail.com)
+## Activity
+
+<p align="center">
+  <img src="./assets/github-stats.svg" alt="Total GitHub commits, pull request reviews, and pull requests opened" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/github-activity.svg" alt="Recent GitHub commits and pull requests, with commit activity by time of day" width="100%" />
+</p>
+
+<p align="center"><sub>Contribution counts only · recent public activity · updated daily · Asia/Tokyo</sub></p>
+
+<br/>
+
+---
+
+<p align="center">
+  <strong>Apple</strong> · Siri TTS &nbsp;&nbsp;→&nbsp;&nbsp;
+  <strong>Linktivity</strong> · Backend Systems &nbsp;&nbsp;→&nbsp;&nbsp;
+  <strong>Kotoba Technologies</strong> · Speech AI
+</p>
+
+<p align="center">
+  M.S. in Electrical and Computer Engineering, Carnegie Mellon University<br/>
+  Tokyo, Japan
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/qian-cheng-2bb71319a/"><strong>Get in touch ↗</strong></a>
+</p>
