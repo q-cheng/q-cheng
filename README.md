@@ -2,7 +2,7 @@
 
 **Machine learning engineer building production speech and multimodal AI systems.**
 
-I work across model training, evaluation, inference optimization, and deployment—turning research prototypes into reliable products. I'm currently at Kotoba Technologies in Tokyo. Previously, I worked on Siri TTS at Apple and production backend systems at Linktivity.
+I work across model training, evaluation, inference optimization, and deployment—turning research prototypes into reliable products. I'm currently at Kotoba Technologies in Tokyo.
 
 ## Focus
 
